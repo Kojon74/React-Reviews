@@ -1,0 +1,41 @@
+.center-component {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  margin: 0;
+}
+
+.title {
+  width: fit-content;
+  display: block;
+  margin: 4rem auto 4rem;
+  color: #222;
+  font-size: 3rem;
+}
+
+.underline {
+  margin: auto;
+  width: 50%;
+  border-bottom: 5px solid lightskyblue;
+}
+
+.review-container {
+  padding: 3rem 0 3rem;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 15px 0px #888;
+}
+
+.arrows {
+  width: fit-content;
+  display: block;
+  margin: 1rem auto 1rem;
+}
+
+.surprise-me {
+  display: block !important;
+  margin: auto !important;
+}

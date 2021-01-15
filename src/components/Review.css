@@ -1,0 +1,65 @@
+.review {
+  width: 700px;
+  height: 320px;
+}
+
+.img-container {
+  width: 175px;
+  height: 175px;
+  position: relative;
+  margin: 0 auto 2rem;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 15px -5px 0 1px lightskyblue;
+}
+
+.quote-container {
+  left: 250px;
+  position: absolute;
+  background-color: lightskyblue;
+  border-radius: 50%;
+  height: 65px;
+  width: 65px;
+  z-index: 1;
+}
+
+.quote {
+  background-color: lightskyblue;
+  font-size: x-large !important;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+h3 {
+  margin: auto;
+  text-align: center;
+}
+
+.name {
+  margin-bottom: 0.5rem;
+  font-size: x-large;
+}
+
+.occupation {
+  margin-bottom: 1rem;
+  color: lightskyblue;
+  font-size: medium;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+p {
+  width: 450px;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+}
